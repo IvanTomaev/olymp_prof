@@ -1,5 +1,5 @@
-i_str = 'abacabaabc'
-#i_str = input()
+# i_str = 'abacabaabc'
+i_str = input()
 
 max_substr_l = int(len(i_str)/2)
 i_str_l = int(len(i_str))
@@ -44,7 +44,7 @@ for j in range(0, max_substr_l-1):
 idx = s_predictable.index(0)
 print(len(s_strs[idx]))
 
-print(s_strs)
-print(s_count)
-print(s_endswith)
-print(s_predictable)
+# print(s_strs)
+# print(s_count)
+# print(s_endswith)
+# print(s_predictable)

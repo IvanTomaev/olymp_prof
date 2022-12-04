@@ -1,7 +1,8 @@
 def generatSequence(array):
     ones = array.count(1)
     result = []
-    result.append([1 for i in range(ones)])
+    # if ones != 0:
+    #     result.append([1 for i in range(ones)])
     numbers = [i for i in array if (int(i ** 0.5) ** 2 == i or (i ** 2) in array) and i != 1]
     if not numbers and not result:
         print(1)
